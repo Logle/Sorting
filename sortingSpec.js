@@ -17,5 +17,8 @@ describe("merge_sort", function() {
   it("works with an array of one element", function() {
     expect(bubble_sort([6])).toEqual([6]);
   });
+  it("sort an array using merge method", function() {
+    expect(bubble_sort([9,6,5,4,9,3,2])).toEqual([2,3,4,5,6,9,9]);
+  });
 
 });
